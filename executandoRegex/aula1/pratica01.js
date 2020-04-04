@@ -6,7 +6,7 @@ const text = lorem.split(' ')
 
 const todasPalavras = []
 
-for(let key of text) {
+for (let key of text) {
   let palavra = lorem.match(key)
   todasPalavras.push(palavra[0])
 }
